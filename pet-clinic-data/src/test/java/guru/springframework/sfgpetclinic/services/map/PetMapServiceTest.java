@@ -63,7 +63,7 @@ class PetMapServiceTest {
     @Test
     void saveExistingId() {
 
-        Long id = 2L;
+        Long id = 1L;
 
         Pet pet2 = Pet.builder().id(id).build();
 
